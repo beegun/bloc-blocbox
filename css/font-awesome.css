@@ -146,10 +146,13 @@ color: #3498db;;
   width: 50%;
   padding: 20px;
 }
-.newsection-color h2{
+.newsection{
   text-align: center;
-  color: #3498db;
 }
+.newsection h2{
+     color:#3498DB;
+}
+
 }
 
 
