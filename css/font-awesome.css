@@ -20,7 +20,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 /* makes the font 33% larger relative to the icon container */
-@media  (min-width: 380px) {
+@media  (min-width: 280px) {
 .fa-file-o{
    color: #3498db;
    font-size: 3em;
@@ -152,6 +152,39 @@ color: #3498db;;
 .newsection h2{
      color:#3498DB;
 }
+footer {
+   background-color: #34495E;
+   background-image: linear-gradient(to top,
+      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
 
 }
 
