@@ -22,16 +22,20 @@
 /* makes the font 33% larger relative to the icon container */
 @media  (min-width: 280px) {
 .fa-file-o{
-   color: #3498db;
-   font-size: 3em;
+   color: white;
+   font-size: .875em;
+   font-weight: 600;
    }
 .fa-link{
-   color: #3498db;
-   font-size: 3em;
+   color: white;
+   font-size: .875em;
+    font-weight: 600;
    }
 .fa-picture-o{
-   color: #3498db;
-   font-size: 3em;
+   color: white;
+   font-size: .875em;
+    font-weight: 600;
+    text-decoration: none;
    }
 ul {
    list-style-type: none;
