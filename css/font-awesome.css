@@ -32,11 +32,34 @@
     font-weight: 600;
    }
 .fa-picture-o{
+
    color: white;
    font-size: .875em;
     font-weight: 600;
     text-decoration: none;
    }
+
+   /* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #ff0033;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff0033;
+}
+
+/* selected link */
+a:active {
+    color: #ff0033;
+}
+
+
 ul {
    list-style-type: none;
    }
